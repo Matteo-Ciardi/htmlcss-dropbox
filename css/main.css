@@ -179,10 +179,27 @@ header a {
 /* Partner */
 .partner-row {
     display: flex;
+    margin: 200px 0 100px;
 }
 
 .partner-img-box {
     width: 70%;
+}
+
+/* Dropbox Business */
+.dp-business-row {
+    display: flex;
+    gap: calc(80px / 3);
+    margin: 50px 0;
+}
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #d0cfd4;
+    /* DEBUG */
+    background-color: violet;
+    height: 200px;
 }
 
 /* Footer */
