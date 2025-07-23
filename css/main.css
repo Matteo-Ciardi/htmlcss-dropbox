@@ -18,6 +18,11 @@ ul {
     list-style-type: none;
 }
 
+h1 {
+    font-size: 4.5em;
+    font-weight: 800;
+}
+
 /* Utils */
 .button {
     /* DEBUG */
@@ -56,4 +61,12 @@ header a {
 .hero {
     background-color: #b4d0e6;
     height: 750px;
+    padding-top: 100px;
+}
+
+.hero-container {
+    width: 60%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: violet;
 }
