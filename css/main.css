@@ -159,4 +159,21 @@ header a {
     display: flex;
 }
 
+.info {
+    width: 70%;
+    padding: 25px;
+}
+
+.btn-col {
+    padding: 30px 45px;
+}
+
+.info h3 {
+    margin: 0px 0 20px;
+}
+
+.info h5 {
+    margin-bottom: 50px;
+}
+
 /* Footer */
