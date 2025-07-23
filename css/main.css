@@ -145,15 +145,18 @@ header a {
 }
 
 .bottom-row {
-    display: flex;
     margin-top: 25px;
 }
 
 .bottom-card {
-    display: flex;
     width: 100%;
     border: 1px solid #d0cfd4;
     /* DEBUG */
     background-color: violet;
-    height: 300px;
 }
+
+.how-to-contact {
+    display: flex;
+}
+
+/* Footer */
