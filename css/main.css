@@ -176,4 +176,13 @@ header a {
     margin-bottom: 50px;
 }
 
+/* Partner */
+.partner-row {
+    display: flex;
+}
+
+.partner-img-box {
+    width: 70%;
+}
+
 /* Footer */
