@@ -20,6 +20,7 @@ ul {
 h1 {
     font-size: 4.5em;
     font-weight: 800;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -70,6 +71,7 @@ header a {
 
 /* Hero */
 .hero {
+    position: relative;
     background-color: #b4d0e6;
     height: 750px;
     padding-top: 100px;
@@ -81,6 +83,19 @@ header a {
     margin: 0 auto;
     /* DEBUG */
     background-color: violet;
+}
+
+.hero-content {
+    display: flex;
+}
+
+.hero-txt {
+    width: 30%;
+}
+
+#hero-img {
+    position: absolute;
+    width: 43%;
 }
 
 /* Main */
@@ -238,5 +253,3 @@ footer a {
     border-bottom: 2px solid #d0cfd4;
     margin: 40px 0;
 }
-
-
