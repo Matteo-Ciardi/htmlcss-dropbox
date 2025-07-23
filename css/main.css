@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+body {
+    font-family: "OpenSans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Header */
