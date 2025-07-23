@@ -11,7 +11,6 @@ body {
 
 a {
     text-decoration: none;
-    color: #000;
 }
 
 ul {
@@ -211,3 +210,33 @@ header a {
 }
 
 /* Footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    margin-top: 200px;
+}
+
+.footer-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 80px 0 40px;
+    /* DEBUG */
+    /* background-color: violet; */
+}
+
+.Footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #fff;
+}
+
+.footer-divider {
+    width: 100px;
+    border-bottom: 2px solid #d0cfd4;
+    margin: 40px 0;
+}
+
+
