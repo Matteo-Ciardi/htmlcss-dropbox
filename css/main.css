@@ -23,6 +23,14 @@ h1 {
     font-weight: 800;
 }
 
+h2 {
+    margin-bottom: 50px;
+}
+
+input {
+    margin-right: 5px;
+}
+
 /* Utils */
 .button {
     /* DEBUG */
@@ -62,6 +70,7 @@ header a {
     background-color: #b4d0e6;
     height: 750px;
     padding-top: 100px;
+    margin-bottom: 200px;
 }
 
 .hero-container {
@@ -70,3 +79,30 @@ header a {
     /* DEBUG */
     background-color: violet;
 }
+
+/* Main */
+.main-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sub-period span {
+    margin-right: 40px;
+    font-size: 1em;
+}
+
+.sub-plan-all {
+    display: flex;
+    gap: calc(80px / 3);
+    margin-top: 50px;
+}
+
+.sub-plan {
+    width: 100%;
+    /* DEBUG */
+    background-color: violet;
+    height: 200px;
+}
+
+
+
