@@ -18,11 +18,15 @@ ul {
     list-style-type: none;
 }
 
-
-/* Header */
-#logo {
-    margin-right: 40px;
+/* Utils */
+.button {
+    /* DEBUG */
+    background-color: lightgrey;
+    padding: 5px 10px;
 }
+
+
+/* Header top */
 .header-top {
     display: flex;
     align-items: center;
@@ -40,10 +44,16 @@ header ul {
     display: flex;
 }
 
-header li {
+header a {
     margin-right: 40px;
 }
 
+.personal-area a {
+    margin-right: 20px;
+}
+
+/* Hero */
 .hero {
-    background-color: lch(82.12% 14.71 251.66);
+    background-color: #b4d0e6;
+    height: 750px;
 }
