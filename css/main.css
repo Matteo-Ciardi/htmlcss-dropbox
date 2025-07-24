@@ -37,9 +37,10 @@ span {
 
 /* Utils */
 .button {
+    color: #fff;
+    background-color: #0061fe;
+    padding: 10px 20px;
     /* DEBUG */
-    background-color: lightgrey;
-    padding: 5px 10px;
 }
 
 
@@ -53,29 +54,53 @@ header {
 .header-top {
     display: flex;
     align-items: center;
+    height: 85px;
     width: 100%;
-    height: 90px;
-    padding: 30px 15px;
+    padding: 0 15px;
     background-color: #fff;
 }
 
+#logo {
+    margin-right: 10px;
+}
+
 .navbar {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 header ul {
     display: flex;
 }
 
-header a {
-    margin-right: 40px;
+.navbar a {
+    margin: 25px;
+    color: #000000;
+}
+
+.navbar li {
+    padding: 35px 0;
+}
+
+.navbar li:hover {
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+
+.personal-area {
+    display: flex;
+    margin-left: 25px;
 }
 
 .personal-area a {
     margin-right: 20px;
+    color: #000000;
+}
+
+header .button {
+    color: white;
 }
 
 /* Hero */
