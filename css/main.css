@@ -176,7 +176,7 @@ header .button {
 
 .top-row {
     display: flex;
-    gap: calc(80px / 3);
+    gap: 50px;
     margin-top: 50px;
 }
 
@@ -241,7 +241,7 @@ header .button {
 
 /* Riga grande */
 .bottom-row {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .bottom-card {
