@@ -105,7 +105,7 @@ header .button {
 
 /* Hero */
 .hero {
-    position: relative;
+    /* position: relative; */
     background-color: #b4d0e6;
     height: 750px;
     padding-top: 100px;
@@ -116,7 +116,7 @@ header .button {
     width: 60%;
     margin: 0 auto;
     /* DEBUG */
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 .hero-content {
@@ -130,6 +130,22 @@ header .button {
 #hero-img {
     position: absolute;
     width: 43%;
+}
+
+.hero-txt p {
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+
+.hero-txt span {
+    margin-top: 40px;
+}
+
+.arrow-big {
+    font-size: 50px;
+    translate: -10px;
+    margin-top: 80px;
+    color: #000000;
 }
 
 /* Main */
