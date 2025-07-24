@@ -25,6 +25,12 @@ h1 {
 
 h2 {
     margin-bottom: 50px;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0px 0 20px;
 }
 
 input {
@@ -33,6 +39,12 @@ input {
 
 span {
     display: inline-block;
+}
+
+p {
+    line-height: 20px;
+    margin-bottom: 50px;
+
 }
 
 /* Utils */
@@ -133,8 +145,8 @@ header .button {
 }
 
 .hero-txt p {
-    margin-bottom: 50px;
-    line-height: 20px;
+    /* margin-bottom: 50px; */
+    /* line-height: 20px; */
 }
 
 .hero-txt span {
@@ -208,6 +220,7 @@ header .button {
     margin-bottom: 40px;
 }
 
+/* Riga grande */
 .bottom-row {
     margin-top: 25px;
 }
@@ -216,15 +229,16 @@ header .button {
     width: 100%;
     border: 1px solid #d0cfd4;
     /* DEBUG */
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 .how-to-contact {
     display: flex;
+    justify-content: space-between;
 }
 
 .info {
-    width: 70%;
+    width: 60%;
     padding: 25px;
 }
 
@@ -233,11 +247,12 @@ header .button {
 }
 
 .info h3 {
-    margin: 0px 0 20px;
+    /* margin: 0px 0 20px; */
 }
 
 .info h5 {
     margin-bottom: 50px;
+    font-size: 1em;
 }
 
 /* Partner */
@@ -267,11 +282,20 @@ header .button {
     flex-direction: column;
     width: 100%;
     /* DEBUG */
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 .dp-business-row img {
     width: 100%;
+}
+
+#users h2 {
+    padding-right: 215px;
+    margin-top: 200px;
+}
+
+#users a {
+    text-decoration: underline;
 }
 
 /* Footer */
