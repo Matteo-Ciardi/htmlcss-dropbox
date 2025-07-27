@@ -128,7 +128,6 @@ header .button {
 
 /* Hero */
 .hero {
-    /* position: relative; */
     background-color: #b4d0e6;
     height: 750px;
     padding-top: 100px;
@@ -138,8 +137,6 @@ header .button {
 .hero-container {
     width: 60%;
     margin: 0 auto;
-    /* DEBUG */
-    /* background-color: violet; */
 }
 
 .hero-content {
@@ -258,10 +255,6 @@ header .button {
     padding: 30px 45px;
 }
 
-.info h3 {
-    /* margin: 0px 0 20px; */
-}
-
 .info h5 {
     margin-bottom: 50px;
     font-size: 1em;
@@ -299,8 +292,6 @@ header .button {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* DEBUG */
-    /* background-color: violet; */
 }
 
 .dp-business-row img {
@@ -328,8 +319,6 @@ footer {
     width: 60%;
     margin: 0 auto;
     padding: 80px 0 40px;
-    /* DEBUG */
-    /* background-color: violet; */
 }
 
 .Footer-top {
