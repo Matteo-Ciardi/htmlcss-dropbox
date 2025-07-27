@@ -56,7 +56,20 @@ p {
     color: #fff;
     background-color: #0061fe;
     padding: 10px 20px;
-    /* DEBUG */
+}
+
+/* Hover */
+.button:hover {
+    background-color: #619dff;
+}
+
+.trans-btn:hover {
+    background-color: #d7d7d7;
+}
+
+.navbar li:hover {
+    border-bottom: 3px solid black;
+    cursor: pointer;
 }
 
 /* Header top */
@@ -97,11 +110,6 @@ header ul {
 
 .navbar li {
     padding: 35px 0;
-}
-
-.navbar li:hover {
-    border-bottom: 3px solid black;
-    cursor: pointer;
 }
 
 .personal-area {
@@ -147,11 +155,6 @@ header .button {
     width: 43%;
 }
 
-.hero-txt p {
-    /* margin-bottom: 50px; */
-    /* line-height: 20px; */
-}
-
 .hero-txt span {
     margin-top: 40px;
 }
@@ -185,8 +188,6 @@ header .button {
     flex-direction: column;
     width: 100%;
     border: 1px solid #d0cfd4;
-    /* DEBUG */
-    /* background-color: violet; */
 }
 
 .top-card li {
@@ -233,12 +234,6 @@ header .button {
     margin-bottom: 40px;
 }
 
-.user::before {
-    content: "\f007";
-    font-family: FontAwesome;
-    margin-right: 5px;
-}
-
 /* Riga grande */
 .bottom-row {
     margin-top: 50px;
@@ -247,8 +242,6 @@ header .button {
 .bottom-card {
     width: 100%;
     border: 1px solid #d0cfd4;
-    /* DEBUG */
-    /* background-color: violet; */
 }
 
 .how-to-contact {
@@ -369,3 +362,4 @@ select {
 .fa-grey {
     color: #898888;
 }
+
